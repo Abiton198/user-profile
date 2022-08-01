@@ -1,0 +1,154 @@
+
+* {
+    font-family: "Lucida Console", Monaco, monospace; 
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* ====CARD ONE=== */
+
+.card-one {
+    border: solid green 1px;
+    margin-left: auto;
+    width: 50%;
+    height: fit-content;
+}
+.user-profile-header {
+    background-color:aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    flex-direction: row-reverse;
+   
+    margin: 0 0 20px 0;
+}
+
+.profile-company {
+    border:solid 1px;
+    background-color: rgb(168, 181, 192);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 5px;
+    text-align: center;
+}
+
+.contact-details {
+    border:solid 1px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0; 
+    background-color: lightgreen;
+}
+
+.address {
+    font-weight: 300;
+    font-size: 20px;
+    background-color: aquamarine;
+    padding: 3px;
+    margin-top: 30px;
+}
+
+.phone {
+    margin-left: 35px;
+}
+.website{
+    margin-left: 70px;
+}
+
+/* =======CARD TWO====== */
+
+.card-two {
+    /* border: solid 10px; */
+    width: 50%;
+    height: fit-content;
+    background-color: antiquewhite;
+}
+.user-profile-header-two {
+    background-color:rgb(255, 232, 127);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    flex-direction: row;
+}
+
+.profile-company-two {
+    border:solid 1px;
+    background-color: rgb(204, 193, 32);
+    padding: 20px;    
+    text-align: end;
+}
+
+.contact-details-two {
+    padding: 20px;
+    background-color: rgb(73, 131, 26);
+}
+
+.address-two {
+    font-weight: 300;
+    font-size: 16px;
+    background-color: rgb(231, 224, 128);
+    padding: 3px;
+}
+
+.website-two,.phone-two{
+    text-align: start;
+}
+
+/* =======CARD THREE====== */
+
+.card-three {
+    border: solid 1px yellow;
+    width: 50%;
+    height: fit-content;
+    margin-left: auto;
+}
+.user-profile-header-three {
+    background-color:rgb(118, 78, 228);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    flex-direction: row-reverse;
+}
+
+.profile-company-three {
+    background-color: rgb(206, 83, 189);
+    padding: 20px;    
+    text-align:end;
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+.contact-details-three {
+    padding: 20px;
+    background-color: rgb(199, 133, 236);
+    text-align:start;
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+.address-three {
+    font-weight: 300;
+    font-size: 16px;
+    background-color: rgb(151, 127, 214);
+    padding: 3px;
+}
+
+.phone-three {
+    margin-left: 35px;
+    padding: 10px;
+    text-align: center;
+}
+.website-three{
+    margin-left: 70px;
+    padding: 10px;
+    text-align: end;
+}
+.email-three {
+    padding: 10px;
+    text-align: start;
+}
